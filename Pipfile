@@ -8,6 +8,8 @@ pylint = "*"
 
 [packages]
 django = "*"
+setuptools = "*"
+django-polls = {editable = true,path = "./django-polls"}
 
 [requires]
 python_version = "3.7"
